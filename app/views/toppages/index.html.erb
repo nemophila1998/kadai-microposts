@@ -11,7 +11,7 @@
 
         </div>
         
-<%= f.submit 'Post', class: 'btn btn-primary btn-block' %>
+<%= f.submit '投稿', class: 'btn btn-primary btn-block' %>
 
       
 <% end %>
@@ -29,8 +29,12 @@
     <div class="text-center">
       <h1>Welcome to the Microposts</h1>
       
-<%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
-
+<%= link_to 'アカウント登録', signup_path, class: 'btn btn-lg btn-primary' %>
+<%= link_to 'ログイン', login_path, class: 'btn btn-lg btn-primary' %>
+<div class="">
+  <p>ゲストアカウント：guest@guest.co.jp</p>
+  <p>パスワード：guest123</p>
+</div>
     </div>
   </div>
 <% end %>

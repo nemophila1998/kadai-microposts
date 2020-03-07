@@ -10,8 +10,8 @@
         <div>
           
 <%= link_to micropost.user.name, user_path(micropost.user) %>
- <span class="text-muted">posted at 
-<%= micropost.created_at %>
+ <span class="text-muted">
+<%= micropost.created_at.strftime('%Y/%m/%d') %>
 </span>
         </div>
         <div>
