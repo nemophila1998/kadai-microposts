@@ -1,15 +1,18 @@
-.main-container {
-  background-image: url("/images/top3.PNG");
-  height: 500px;
+.jumbotron {
+  background-image: url("/images/top6.PNG");
+  height:520px;
 }
 
-.item{
-  padding-top: 260px;
-  padding-left: 150px;
-}
-
-.item p {
+.jumbotron h1 {
   color:#FFFFFF;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.jumbotron p {
+  color:#FFFFFF;
+  margin-top:30px;
 }
 
 .guest-account{

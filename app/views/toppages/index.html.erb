@@ -25,12 +25,14 @@
   </div>
 <% else %>
 
-<div class="main-container">
-  <div class="item">
-<%= link_to 'アカウント登録', signup_path, class: 'btn btn-lg btn-outline-danger ml-5 mr-5 mb-5' %>
-<%= link_to 'ログイン', login_path, class: 'btn btn-lg btn-outline-danger mb-5' %>
-      <p>ゲストアカウント：guest@guest.co.jp／パスワード：guest123</p>
-  </div>
+<div class="center jumbotron">
+    <div class="text-center">
+        <h1>Microposts</h1>
+<%= link_to 'アカウント登録', signup_path, class: 'btn btn-lg btn-outline-danger mr-3' %>
+<%= link_to 'ログイン', login_path, class: 'btn btn-lg btn-outline-danger' %>
+            <p>ゲストアカウント：guest@guest.co.jp／パスワード：guest123</p>
+    </div>
 </div>
+
    
 <% end %>
