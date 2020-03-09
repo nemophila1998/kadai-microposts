@@ -3,6 +3,15 @@
   height: 500px;
 }
 
-.guest-account {
-  color:red;
+.item{
+  padding-top: 260px;
+  padding-left: 150px;
+}
+
+.item p {
+  color:#FFFFFF;
+}
+
+.guest-account{
+  color:#708090;
 }
